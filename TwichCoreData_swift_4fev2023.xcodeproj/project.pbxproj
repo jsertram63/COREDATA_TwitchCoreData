@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		891340F2298E877C0003F3FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891340F1298E877C0003F3FF /* AppDelegate.swift */; };
+		891340F4298E877C0003F3FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891340F3298E877C0003F3FF /* SceneDelegate.swift */; };
+		891340F6298E877C0003F3FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891340F5298E877C0003F3FF /* ViewController.swift */; };
+		891340F9298E877C0003F3FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 891340F7298E877C0003F3FF /* Main.storyboard */; };
+		891340FB298E877E0003F3FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 891340FA298E877E0003F3FF /* Assets.xcassets */; };
+		891340FE298E877E0003F3FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 891340FC298E877E0003F3FF /* LaunchScreen.storyboard */; };
+		89134109298E877E0003F3FF /* TwichCoreData_swift_4fev2023Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89134108298E877E0003F3FF /* TwichCoreData_swift_4fev2023Tests.swift */; };
+		89134113298E877E0003F3FF /* TwichCoreData_swift_4fev2023UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89134112298E877E0003F3FF /* TwichCoreData_swift_4fev2023UITests.swift */; };
+		89134115298E877E0003F3FF /* TwichCoreData_swift_4fev2023UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89134114298E877E0003F3FF /* TwichCoreData_swift_4fev2023UITestsLaunchTests.swift */; };
+		89134123298EB3BA0003F3FF /* dbname.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 89134121298EB3BA0003F3FF /* dbname.xcdatamodeld */; };
+		89466F1D299E25B700E5AAA8 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89466F1C299E25B700E5AAA8 /* CoreDataStack.swift */; };
+		89806F21299C3560006DEE30 /* DogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89806F20299C3560006DEE30 /* DogViewController.swift */; };
+		89C9330C299819BB004182BF /* TieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C9330B299819BB004182BF /* TieViewController.swift */; };
+		89C9331229983BD6004182BF /* Tie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C9331129983BD6004182BF /* Tie.swift */; };
+		89C9331429983C23004182BF /* Tie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C9331329983C23004182BF /* Tie+CoreDataProperties.swift */; };
+		89C9331629984808004182BF /* SampleData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89C9331529984808004182BF /* SampleData.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89134105298E877E0003F3FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 891340E6298E877B0003F3FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 891340ED298E877B0003F3FF;
+			remoteInfo = TwichCoreData_swift_4fev2023;
+		};
+		8913410F298E877E0003F3FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 891340E6298E877B0003F3FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 891340ED298E877B0003F3FF;
+			remoteInfo = TwichCoreData_swift_4fev2023;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		891340EE298E877B0003F3FF /* TwichCoreData_swift_4fev2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwichCoreData_swift_4fev2023.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		891340F1298E877C0003F3FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		891340F3298E877C0003F3FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		891340F5298E877C0003F3FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		891340F8298E877C0003F3FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		891340FA298E877E0003F3FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		891340FD298E877E0003F3FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		891340FF298E877E0003F3FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89134104298E877E0003F3FF /* TwichCoreData_swift_4fev2023Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwichCoreData_swift_4fev2023Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89134108298E877E0003F3FF /* TwichCoreData_swift_4fev2023Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwichCoreData_swift_4fev2023Tests.swift; sourceTree = "<group>"; };
+		8913410E298E877E0003F3FF /* TwichCoreData_swift_4fev2023UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwichCoreData_swift_4fev2023UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89134112298E877E0003F3FF /* TwichCoreData_swift_4fev2023UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwichCoreData_swift_4fev2023UITests.swift; sourceTree = "<group>"; };
+		89134114298E877E0003F3FF /* TwichCoreData_swift_4fev2023UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwichCoreData_swift_4fev2023UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		89134122298EB3BA0003F3FF /* dbname.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = dbname.xcdatamodel; sourceTree = "<group>"; };
+		89466F1C299E25B700E5AAA8 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		89806F20299C3560006DEE30 /* DogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogViewController.swift; sourceTree = "<group>"; };
+		89C9330B299819BB004182BF /* TieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TieViewController.swift; sourceTree = "<group>"; };
+		89C9331129983BD6004182BF /* Tie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tie.swift; sourceTree = "<group>"; };
+		89C9331329983C23004182BF /* Tie+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tie+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		89C9331529984808004182BF /* SampleData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = SampleData.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		891340EB298E877B0003F3FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89134101298E877E0003F3FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8913410B298E877E0003F3FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		891340E5298E877B0003F3FF = {
+			isa = PBXGroup;
+			children = (
+				89C9331529984808004182BF /* SampleData.plist */,
+				89134121298EB3BA0003F3FF /* dbname.xcdatamodeld */,
+				891340F0298E877B0003F3FF /* TwichCoreData_swift_4fev2023 */,
+				89134107298E877E0003F3FF /* TwichCoreData_swift_4fev2023Tests */,
+				89134111298E877E0003F3FF /* TwichCoreData_swift_4fev2023UITests */,
+				891340EF298E877B0003F3FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		891340EF298E877B0003F3FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				891340EE298E877B0003F3FF /* TwichCoreData_swift_4fev2023.app */,
+				89134104298E877E0003F3FF /* TwichCoreData_swift_4fev2023Tests.xctest */,
+				8913410E298E877E0003F3FF /* TwichCoreData_swift_4fev2023UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		891340F0298E877B0003F3FF /* TwichCoreData_swift_4fev2023 */ = {
+			isa = PBXGroup;
+			children = (
+				89466F1B299E258E00E5AAA8 /* CoreData */,
+				891340F1298E877C0003F3FF /* AppDelegate.swift */,
+				89806F20299C3560006DEE30 /* DogViewController.swift */,
+				891340F3298E877C0003F3FF /* SceneDelegate.swift */,
+				891340F5298E877C0003F3FF /* ViewController.swift */,
+				891340F7298E877C0003F3FF /* Main.storyboard */,
+				891340FA298E877E0003F3FF /* Assets.xcassets */,
+				891340FC298E877E0003F3FF /* LaunchScreen.storyboard */,
+				891340FF298E877E0003F3FF /* Info.plist */,
+				89C9330B299819BB004182BF /* TieViewController.swift */,
+				89C9331129983BD6004182BF /* Tie.swift */,
+				89C9331329983C23004182BF /* Tie+CoreDataProperties.swift */,
+			);
+			path = TwichCoreData_swift_4fev2023;
+			sourceTree = "<group>";
+		};
+		89134107298E877E0003F3FF /* TwichCoreData_swift_4fev2023Tests */ = {
+			isa = PBXGroup;
+			children = (
+				89134108298E877E0003F3FF /* TwichCoreData_swift_4fev2023Tests.swift */,
+			);
+			path = TwichCoreData_swift_4fev2023Tests;
+			sourceTree = "<group>";
+		};
+		89134111298E877E0003F3FF /* TwichCoreData_swift_4fev2023UITests */ = {
+			isa = PBXGroup;
+			children = (
+				89134112298E877E0003F3FF /* TwichCoreData_swift_4fev2023UITests.swift */,
+				89134114298E877E0003F3FF /* TwichCoreData_swift_4fev2023UITestsLaunchTests.swift */,
+			);
+			path = TwichCoreData_swift_4fev2023UITests;
+			sourceTree = "<group>";
+		};
+		89466F1B299E258E00E5AAA8 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				89466F1C299E25B700E5AAA8 /* CoreDataStack.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		891340ED298E877B0003F3FF /* TwichCoreData_swift_4fev2023 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89134118298E877E0003F3FF /* Build configuration list for PBXNativeTarget "TwichCoreData_swift_4fev2023" */;
+			buildPhases = (
+				891340EA298E877B0003F3FF /* Sources */,
+				891340EB298E877B0003F3FF /* Frameworks */,
+				891340EC298E877B0003F3FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwichCoreData_swift_4fev2023;
+			productName = TwichCoreData_swift_4fev2023;
+			productReference = 891340EE298E877B0003F3FF /* TwichCoreData_swift_4fev2023.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89134103298E877E0003F3FF /* TwichCoreData_swift_4fev2023Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8913411B298E877E0003F3FF /* Build configuration list for PBXNativeTarget "TwichCoreData_swift_4fev2023Tests" */;
+			buildPhases = (
+				89134100298E877E0003F3FF /* Sources */,
+				89134101298E877E0003F3FF /* Frameworks */,
+				89134102298E877E0003F3FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89134106298E877E0003F3FF /* PBXTargetDependency */,
+			);
+			name = TwichCoreData_swift_4fev2023Tests;
+			productName = TwichCoreData_swift_4fev2023Tests;
+			productReference = 89134104298E877E0003F3FF /* TwichCoreData_swift_4fev2023Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8913410D298E877E0003F3FF /* TwichCoreData_swift_4fev2023UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8913411E298E877E0003F3FF /* Build configuration list for PBXNativeTarget "TwichCoreData_swift_4fev2023UITests" */;
+			buildPhases = (
+				8913410A298E877E0003F3FF /* Sources */,
+				8913410B298E877E0003F3FF /* Frameworks */,
+				8913410C298E877E0003F3FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89134110298E877E0003F3FF /* PBXTargetDependency */,
+			);
+			name = TwichCoreData_swift_4fev2023UITests;
+			productName = TwichCoreData_swift_4fev2023UITests;
+			productReference = 8913410E298E877E0003F3FF /* TwichCoreData_swift_4fev2023UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		891340E6298E877B0003F3FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					891340ED298E877B0003F3FF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					89134103298E877E0003F3FF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 891340ED298E877B0003F3FF;
+					};
+					8913410D298E877E0003F3FF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 891340ED298E877B0003F3FF;
+					};
+				};
+			};
+			buildConfigurationList = 891340E9298E877B0003F3FF /* Build configuration list for PBXProject "TwichCoreData_swift_4fev2023" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 891340E5298E877B0003F3FF;
+			productRefGroup = 891340EF298E877B0003F3FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				891340ED298E877B0003F3FF /* TwichCoreData_swift_4fev2023 */,
+				89134103298E877E0003F3FF /* TwichCoreData_swift_4fev2023Tests */,
+				8913410D298E877E0003F3FF /* TwichCoreData_swift_4fev2023UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		891340EC298E877B0003F3FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891340FE298E877E0003F3FF /* LaunchScreen.storyboard in Resources */,
+				891340FB298E877E0003F3FF /* Assets.xcassets in Resources */,
+				89C9331629984808004182BF /* SampleData.plist in Resources */,
+				891340F9298E877C0003F3FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89134102298E877E0003F3FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8913410C298E877E0003F3FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		891340EA298E877B0003F3FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89C9331229983BD6004182BF /* Tie.swift in Sources */,
+				89C9331429983C23004182BF /* Tie+CoreDataProperties.swift in Sources */,
+				89C9330C299819BB004182BF /* TieViewController.swift in Sources */,
+				89466F1D299E25B700E5AAA8 /* CoreDataStack.swift in Sources */,
+				89806F21299C3560006DEE30 /* DogViewController.swift in Sources */,
+				891340F6298E877C0003F3FF /* ViewController.swift in Sources */,
+				891340F2298E877C0003F3FF /* AppDelegate.swift in Sources */,
+				89134123298EB3BA0003F3FF /* dbname.xcdatamodeld in Sources */,
+				891340F4298E877C0003F3FF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89134100298E877E0003F3FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89134109298E877E0003F3FF /* TwichCoreData_swift_4fev2023Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8913410A298E877E0003F3FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89134113298E877E0003F3FF /* TwichCoreData_swift_4fev2023UITests.swift in Sources */,
+				89134115298E877E0003F3FF /* TwichCoreData_swift_4fev2023UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89134106298E877E0003F3FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 891340ED298E877B0003F3FF /* TwichCoreData_swift_4fev2023 */;
+			targetProxy = 89134105298E877E0003F3FF /* PBXContainerItemProxy */;
+		};
+		89134110298E877E0003F3FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 891340ED298E877B0003F3FF /* TwichCoreData_swift_4fev2023 */;
+			targetProxy = 8913410F298E877E0003F3FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		891340F7298E877C0003F3FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				891340F8298E877C0003F3FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		891340FC298E877E0003F3FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				891340FD298E877E0003F3FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89134116298E877E0003F3FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89134117298E877E0003F3FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89134119298E877E0003F3FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SV32QZFP9X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TwichCoreData_swift_4fev2023/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.martres.TwichCoreData-swift-4fev2023";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8913411A298E877E0003F3FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SV32QZFP9X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TwichCoreData_swift_4fev2023/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.martres.TwichCoreData-swift-4fev2023";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8913411C298E877E0003F3FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SV32QZFP9X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.martres.TwichCoreData-swift-4fev2023Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwichCoreData_swift_4fev2023.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TwichCoreData_swift_4fev2023";
+			};
+			name = Debug;
+		};
+		8913411D298E877E0003F3FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SV32QZFP9X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.martres.TwichCoreData-swift-4fev2023Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwichCoreData_swift_4fev2023.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TwichCoreData_swift_4fev2023";
+			};
+			name = Release;
+		};
+		8913411F298E877E0003F3FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SV32QZFP9X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.martres.TwichCoreData-swift-4fev2023UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TwichCoreData_swift_4fev2023;
+			};
+			name = Debug;
+		};
+		89134120298E877E0003F3FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SV32QZFP9X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.martres.TwichCoreData-swift-4fev2023UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TwichCoreData_swift_4fev2023;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		891340E9298E877B0003F3FF /* Build configuration list for PBXProject "TwichCoreData_swift_4fev2023" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89134116298E877E0003F3FF /* Debug */,
+				89134117298E877E0003F3FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89134118298E877E0003F3FF /* Build configuration list for PBXNativeTarget "TwichCoreData_swift_4fev2023" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89134119298E877E0003F3FF /* Debug */,
+				8913411A298E877E0003F3FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8913411B298E877E0003F3FF /* Build configuration list for PBXNativeTarget "TwichCoreData_swift_4fev2023Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8913411C298E877E0003F3FF /* Debug */,
+				8913411D298E877E0003F3FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8913411E298E877E0003F3FF /* Build configuration list for PBXNativeTarget "TwichCoreData_swift_4fev2023UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8913411F298E877E0003F3FF /* Debug */,
+				89134120298E877E0003F3FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		89134121298EB3BA0003F3FF /* dbname.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				89134122298EB3BA0003F3FF /* dbname.xcdatamodel */,
+			);
+			currentVersion = 89134122298EB3BA0003F3FF /* dbname.xcdatamodel */;
+			path = dbname.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 891340E6298E877B0003F3FF /* Project object */;
+}
