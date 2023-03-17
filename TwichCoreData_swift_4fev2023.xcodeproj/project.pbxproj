@@ -23,6 +23,10 @@
 		89C9331229983BD6004182BF /* Tie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C9331129983BD6004182BF /* Tie.swift */; };
 		89C9331429983C23004182BF /* Tie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C9331329983C23004182BF /* Tie+CoreDataProperties.swift */; };
 		89C9331629984808004182BF /* SampleData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89C9331529984808004182BF /* SampleData.plist */; };
+		89F8C63F299EEB9F009CFA17 /* Dog+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F8C63B299EEB9F009CFA17 /* Dog+CoreDataClass.swift */; };
+		89F8C640299EEB9F009CFA17 /* Dog+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F8C63C299EEB9F009CFA17 /* Dog+CoreDataProperties.swift */; };
+		89F8C641299EEB9F009CFA17 /* Walk+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F8C63D299EEB9F009CFA17 /* Walk+CoreDataClass.swift */; };
+		89F8C642299EEB9F009CFA17 /* Walk+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F8C63E299EEB9F009CFA17 /* Walk+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +67,10 @@
 		89C9331129983BD6004182BF /* Tie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tie.swift; sourceTree = "<group>"; };
 		89C9331329983C23004182BF /* Tie+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tie+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		89C9331529984808004182BF /* SampleData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = SampleData.plist; sourceTree = "<group>"; };
+		89F8C63B299EEB9F009CFA17 /* Dog+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dog+CoreDataClass.swift"; sourceTree = "<group>"; };
+		89F8C63C299EEB9F009CFA17 /* Dog+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dog+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		89F8C63D299EEB9F009CFA17 /* Walk+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Walk+CoreDataClass.swift"; sourceTree = "<group>"; };
+		89F8C63E299EEB9F009CFA17 /* Walk+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Walk+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +101,10 @@
 		891340E5298E877B0003F3FF = {
 			isa = PBXGroup;
 			children = (
+				89F8C63B299EEB9F009CFA17 /* Dog+CoreDataClass.swift */,
+				89F8C63C299EEB9F009CFA17 /* Dog+CoreDataProperties.swift */,
+				89F8C63D299EEB9F009CFA17 /* Walk+CoreDataClass.swift */,
+				89F8C63E299EEB9F009CFA17 /* Walk+CoreDataProperties.swift */,
 				89C9331529984808004182BF /* SampleData.plist */,
 				89134121298EB3BA0003F3FF /* dbname.xcdatamodeld */,
 				891340F0298E877B0003F3FF /* TwichCoreData_swift_4fev2023 */,
@@ -289,11 +301,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				89C9331229983BD6004182BF /* Tie.swift in Sources */,
+				89F8C642299EEB9F009CFA17 /* Walk+CoreDataProperties.swift in Sources */,
 				89C9331429983C23004182BF /* Tie+CoreDataProperties.swift in Sources */,
 				89C9330C299819BB004182BF /* TieViewController.swift in Sources */,
 				89466F1D299E25B700E5AAA8 /* CoreDataStack.swift in Sources */,
 				89806F21299C3560006DEE30 /* DogViewController.swift in Sources */,
+				89F8C640299EEB9F009CFA17 /* Dog+CoreDataProperties.swift in Sources */,
+				89F8C641299EEB9F009CFA17 /* Walk+CoreDataClass.swift in Sources */,
 				891340F6298E877C0003F3FF /* ViewController.swift in Sources */,
+				89F8C63F299EEB9F009CFA17 /* Dog+CoreDataClass.swift in Sources */,
 				891340F2298E877C0003F3FF /* AppDelegate.swift in Sources */,
 				89134123298EB3BA0003F3FF /* dbname.xcdatamodeld in Sources */,
 				891340F4298E877C0003F3FF /* SceneDelegate.swift in Sources */,
