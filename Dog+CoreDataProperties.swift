@@ -40,7 +40,7 @@ extension Dog {
     @NSManaged public func replaceWalks(at idx: Int, with value: Walk)
 
     @objc(replaceWalksAtIndexes:withWalks:)
-    @NSManaged public func replaceWalks(at indexes: NSIndexSet, with values: [Walk])
+    @NSManaged public func replaceWalks(at indexes: NSIndexSet, with values: [ Walk])
 
     @objc(addWalksObject:)
     @NSManaged public func addToWalks(_ value: Walk)

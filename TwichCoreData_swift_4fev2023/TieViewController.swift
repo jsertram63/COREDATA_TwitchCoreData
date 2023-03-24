@@ -21,6 +21,8 @@ class TieViewController: UIViewController {
         }
         
         let request : NSFetchRequest<Tie> = Tie.fetchRequest()
+        // predicate
+        // NSPredicate (NSObject) -> Objc
         request.predicate = NSPredicate(format :"%K = %@", argumentArray: [#keyPath(Tie.searchKey),selectedValue])
         
         do {
@@ -38,6 +40,7 @@ class TieViewController: UIViewController {
     @IBOutlet weak var favoriteLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        // singleton
         let appDelegate = UIApplication.shared.delegate as? AppDelegate
         managedContext = appDelegate?.persistentContainer.viewContext
         
@@ -50,13 +53,8 @@ class TieViewController: UIViewController {
             let results = try managedContext.fetch(request)
             if let tie = results.first {
                 populate(tie: tie)
-               
+
             }
-          
-            
-            
-            
-         
         }catch let error as NSError  {
             print("-------------------------------------------")
             print("could not fet \(error), \(error.userInfo)")

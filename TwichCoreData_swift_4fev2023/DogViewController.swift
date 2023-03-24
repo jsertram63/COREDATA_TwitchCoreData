@@ -11,6 +11,7 @@ import CoreData
 class DogViewController: UIViewController {
     
     
+    var currentDog:Dog?
 
     // MARK : - Property
 
@@ -33,7 +34,7 @@ class DogViewController: UIViewController {
     
     
     
-    lazy var coreDataStack = CoreDataStack(modelName: "DogWal")
+    lazy var coreDataStack = CoreDataStack(modelName: "dbname")
     var promenades : [Date] = []
     
     
@@ -41,6 +42,27 @@ class DogViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let dogName = "Swifty"
+        let dogFetch : NSFetchRequest<Dog> = Dog.fetchRequest()
+        dogFetch.predicate = NSPredicate(format: "%K == %@",#keyPath(Dog.name), dogName)
+        do {
+            let results = try coreDataStack.managedContext.fetch(dogFetch)
+            if results.isEmpty {
+                print("Vide")
+                currentDog = Dog(context: coreDataStack.managedContext)
+                currentDog?.name = dogName
+                coreDataStack.saveContext()
+              
+            }else {
+                print("existe deja")
+                currentDog = results.first
+            }
+            
+            
+        } catch let error as NSError {
+            print("Fetch error : \(error) description: \(error.userInfo)")
+        }
+        
  
         
         tableview.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
@@ -50,7 +72,18 @@ class DogViewController: UIViewController {
     
 
     @IBAction func ajoutPromenade(_ sender: Any) {
-        promenades.append(Date())
+ 
+        let walk = Walk(context: coreDataStack.managedContext)
+        walk.date = Date()
+
+        if let dog = currentDog,
+          let walks = dog.walks?.mutableCopy()
+            as? NSMutableOrderedSet {
+            walks.add(walk)
+            dog.walks = walks
+        }
+
+        coreDataStack.saveContext()
         tableview.reloadData()
         
         
@@ -70,14 +103,22 @@ class DogViewController: UIViewController {
 
 extension DogViewController : UITableViewDataSource, UITableViewDelegate{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        print(promenades.count)
-        return promenades.count
+       // print(promenades.count)
+       
+        return currentDog?.walks?.count ?? 0
+        
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let date = promenades[indexPath.row]
+  
+    
+        
         let cell = tableview.dequeueReusableCell(withIdentifier: "Cell",for: indexPath)
-        cell.textLabel?.text = dateFormater.string(from: date)
+        guard let walk = currentDog?.walks?[indexPath.row] as? Walk, let walkDate = walk.date as Date? else {
+            return cell
+        }
+    
+        cell.textLabel?.text = dateFormater.string(from: walkDate)
         return cell
     }
     
